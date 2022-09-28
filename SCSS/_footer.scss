@@ -1,0 +1,42 @@
+.footer{
+
+    overflow: hidden;
+    background-color: #000;
+    padding: 30px 59px;
+}
+.footer-area{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-list{
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    justify-content: space-between;
+    white-space: nowrap;
+}
+.footer-item{
+    padding: 30px;
+}
+.icon-list{
+    display: flex;
+    justify-content: center;
+}
+.icon-item{
+    padding: 0 10px;
+}
+.icon-link{
+    & img{
+        width: 30px;
+        height: 30px;
+    }
+}
+.footer-middle{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+}
+.footer-bottom{
+    color: #fff;
+    padding-top: 20px;
+}

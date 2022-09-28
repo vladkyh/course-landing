@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+
+   
+        <header class="header">
+            <nav class="nav ">
+                <div class="row">
+                    <div class="nav-logo">
+                            <a class="logo-text" href="index.html">Маятник</a>
+                    </div>
+                    <div class="nav-menu">
+                        <ul class="nav-list">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">О компании</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Акции</a></li>
+                            <li class="nav-item"><a class="nav-link" href="collection.html">Коллекция</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-connect">
+                        <a class="call-order popup-link" href="#popup">Заказать звонок</a>
+                        <a class="number" href="#">+7 (999) 999-99-99</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="main col-12 ">
+        
+            <section class="section-page intro">
+                <div class="intro-content">
+                    
+                        <div class="slide-logo">
+                            <h1 class="logo-title ">James</h1>
+                            <h1 class="color__white">Patterson</h1>
+                        </div>
+                        <div class="slide-title">
+                            <h1 class="color__white">Новая коллекция мебели New Classic</h1>
+                        </div>
+                        <div class="container-btn">
+                            <div class="button-slide">
+                                <a class="button-link" href="#">Открыть каталог</a>
+                            </div>
+                            <div class="button-slide">
+                                <a class="button-link black" href="#">Заказать звонок</a>
+                            </div>
+                        </div>
+                    
+                </div>
+    
+                <a href="#slide-call" class="slide-next"></a>
+                
+                <video preload="auto" class="video" src="img/back.mp4" muted autoplay loop>
+                    <source type="video/mp4" src="img/back.mp4">
+                </video>
+    
+            </section>
+            <section class="section-page callback" id="slide-call">
+                <div class="container">
+                    <div class="callback__container">
+                        <div class="callback-title">
+                            <h2 class="callback-title">Закажите звонок,</h2>
+                            <h2 class="callback-title">и мы перезвоним в удобное для вас время</h2>
+                        </div>
+                        <div class="callback-form">
+                            <form method="post">
+                                <div class="field">
+                                    <div class="form-group">
+                                        <input class="name" name="name" type="text" placeholder="Имя" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="tel" name="phone" type="text" placeholder="+7 (___) ___-__-__" required>
+                                    </div>
+                                </div>
+                                <div class="comments-field">
+                                    <textarea placeholder="Комментарий (необязательно)" class="comments"></textarea>
+                                </div>
+                                <div class="form-checkBox">
+                                    <input type="checkbox" name="form-check" id="form-check" checked>
+                                    <span class="form-checkboxText" title="Я согласен с условиями передачи информации">
+                                        <label class="form-checkBoxLabel" for="form-check">Я согласен с</label>
+                                    </span>
+                                    <a href="#" target="_blank" style="color: #000000; text-decoration: underline;">условиями передачи информации</a>
+                                </div>
+                                <input type="submit" name="submit" class="form-button" value="Перезвоните мне">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+        
+</main>
+<div class="row col">
+    <footer class="footer">
+        <div class="footer-area">
+                <a class="logo-text" href="index.html">Маятник</a>
+            <div class="footer-top">
+                <ul class="footer-list">
+                    <li class="footer-item"><a class="footer-link" href="index.html">Главная</a></li>
+                    <li class="footer-item"><a class="footer-link" href="#">О компании</a></li>
+                    <li class="footer-item"><a class="footer-link" href="#">Акции</a></li>
+                    <li class="footer-item"><a class="footer-link" href="collection.html">Коллекция</a></li>
+                    <li class="footer-item"><a class="footer-link" href="#">Контакты</a></li>
+                </ul>            
+            </div>
+            <div class="footer-middle">
+                <ul class="icon-list">
+                    <li class="icon-item"><a class="icon-link" href="https://vk.com/"><img src="img/vk.svg" alt=""></a></li>
+                    <li class="icon-item"><a class="icon-link" href="https://www.instagram.com/?hl=ru"><img src="img/instagram.svg" alt=""></a></li>
+                    <li class="icon-item"><a class="icon-link" href="https://web.telegram.org/z/"><img src="img/telegram.svg" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>
+                    <strong>© 2021, ООО «Маятник»</strong>
+                </p>
+            </div>
+        </div>
+    </footer>
+</div>
+    <!-- <div class="popup" id="popup">
+        <div class="popup-body">
+            <div class="popup-content">
+                <div class="popup-close close-popup"></div>
+                <h2 class="popap-title">Заказ обратного звонка</h2>    
+                <form class="form">
+                    <div class="form-group">
+                        <input class="name" name="name" type="text" placeholder="Имя" required>
+                    </div>
+                    <div class="form-group">
+                        <input class="tel" name="phone" type="text" placeholder="+7 (___) ___-__-__" required>
+                    </div>
+                    <div class="form-checkBox">
+                        <input type="checkbox" name="form-check" id="form-check" checked>
+                        <span class="form-checkboxText" title="Я согласен с условиями передачи информации">
+                            <label class="form-checkBoxLabel" for="form-check">Я согласен с</label>
+                        </span>
+                        <a href="#" target="_blank">условиями передачи информации</a>
+                    </div>
+                    <input type="submit" name="submit" class="form-button" value="Перезвоните мне">
+                </form>
+                
+                </div>
+            </div>
+        </div> -->
+    
+    <!-- <script src="app.js"></script> -->
+</body>
+</html>
